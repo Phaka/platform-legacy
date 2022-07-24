@@ -1,0 +1,16 @@
+id: openbsd-7.1-i386
+architecture: i386
+description: OpenBSD 7.1 (i386)
+distribution:
+    name: OpenBSD
+    codename: OpenBSD
+    major_version: 7
+    release: "7.1"
+    version: "7.1"
+    description: OpenBSD 7.1
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

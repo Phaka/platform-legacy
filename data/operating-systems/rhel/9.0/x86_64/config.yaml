@@ -1,0 +1,16 @@
+id: rhel-9.0-x86_64
+architecture: x86_64
+description: Red Hat Enterprise Linux 9.0 (x86_64)
+distribution:
+    name: Red Hat Enterprise Linux
+    codename: Red Hat Enterprise Linux
+    major_version: 9
+    release: "9.0"
+    version: "9.0"
+    description: Red Hat Enterprise Linux 9.0
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

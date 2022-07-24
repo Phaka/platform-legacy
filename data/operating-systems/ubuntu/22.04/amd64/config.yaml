@@ -1,0 +1,16 @@
+id: ubuntu-22.04-amd64
+architecture: amd64
+description: Ubuntu 22.04 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 22
+    release: "22.04"
+    version: "22.04"
+    description: Ubuntu 22.04
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

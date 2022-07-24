@@ -1,0 +1,16 @@
+id: ubuntu-12.04-i386
+architecture: i386
+description: Ubuntu 12.04.5 (i386)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 12
+    release: "12.04"
+    version: 12.04.5
+    description: Ubuntu 12.04.5
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

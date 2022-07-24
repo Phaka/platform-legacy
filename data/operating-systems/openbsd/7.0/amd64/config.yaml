@@ -1,0 +1,16 @@
+id: openbsd-7.0-amd64
+architecture: amd64
+description: OpenBSD 7.0 (amd64)
+distribution:
+    name: OpenBSD
+    codename: OpenBSD
+    major_version: 7
+    release: "7.0"
+    version: "7.0"
+    description: OpenBSD 7.0
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

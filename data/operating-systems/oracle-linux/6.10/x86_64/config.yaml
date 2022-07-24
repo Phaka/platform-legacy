@@ -1,0 +1,16 @@
+id: oraclelinux-6.10-x86_64
+architecture: x86_64
+description: Oracle Linux 6.10 (x86_64)
+distribution:
+    name: Oracle Linux
+    codename: Oracle Linux
+    major_version: 6
+    release: "6.10"
+    version: "6.10"
+    description: Oracle Linux 6.10
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

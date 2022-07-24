@@ -1,0 +1,16 @@
+id: ubuntu-14.04-amd64
+architecture: amd64
+description: Ubuntu 14.04.6 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 14
+    release: "14.04"
+    version: 14.04.6
+    description: Ubuntu 14.04.6
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

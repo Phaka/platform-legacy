@@ -1,0 +1,16 @@
+id: almalinux-8.6-x86_64
+architecture: x86_64
+description: AlmaLinux 8.6 (x86_64)
+distribution:
+    name: AlmaLinux
+    codename: AlmaLinux
+    major_version: 8
+    release: "8.6"
+    version: "8.6"
+    description: AlmaLinux 8.6
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

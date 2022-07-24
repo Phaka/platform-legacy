@@ -1,0 +1,16 @@
+id: centos-9-x86_64
+architecture: x86_64
+description: CentOS 9 (x86_64)
+distribution:
+    name: CentOS
+    codename: CentOS
+    major_version: 9
+    release: "9"
+    version: "9"
+    description: CentOS 9
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

@@ -1,0 +1,16 @@
+id: centos-7-x86_64
+architecture: x86_64
+description: CentOS 7 (x86_64)
+distribution:
+    name: CentOS
+    codename: CentOS
+    major_version: 7
+    release: "7"
+    version: "7"
+    description: CentOS 7
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

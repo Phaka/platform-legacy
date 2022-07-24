@@ -1,0 +1,16 @@
+id: ubuntu-20.04-amd64
+architecture: amd64
+description: Ubuntu 20.04.4 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 20
+    release: "20.04"
+    version: 20.04.4
+    description: Ubuntu 20.04.4
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

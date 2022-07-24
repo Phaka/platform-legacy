@@ -1,0 +1,16 @@
+id: alpine-3.12-x86_64
+architecture: x86_64
+description: Alpine Linux 3.12 (x86_64)
+distribution:
+    name: Alpine Linux
+    codename: Alpine Linux
+    major_version: 3
+    release: "3.12"
+    version: "3.12"
+    description: Alpine Linux 3.12
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

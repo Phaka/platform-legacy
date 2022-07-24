@@ -1,0 +1,16 @@
+id: freebsd-10.4-i386
+architecture: i386
+description: FreeBSD 10.4 (i386)
+distribution:
+    name: FreeBSD
+    codename: FreeBSD
+    major_version: 10
+    release: "10.4"
+    version: "10.4"
+    description: FreeBSD 10.4
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

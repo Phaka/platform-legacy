@@ -1,0 +1,16 @@
+id: rhel-6.10-i386
+architecture: i386
+description: Red Hat Enterprise Linux 6.10 (i386)
+distribution:
+    name: Red Hat Enterprise Linux
+    codename: Red Hat Enterprise Linux
+    major_version: 6
+    release: "6.10"
+    version: "6.10"
+    description: Red Hat Enterprise Linux 6.10
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

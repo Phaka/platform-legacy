@@ -1,0 +1,16 @@
+id: debian-10-amd64
+architecture: amd64
+description: Debian 10.12.0 (amd64)
+distribution:
+    name: Debian
+    codename: Debian
+    major_version: 10
+    release: "10"
+    version: 10.12.0
+    description: Debian 10.12.0
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

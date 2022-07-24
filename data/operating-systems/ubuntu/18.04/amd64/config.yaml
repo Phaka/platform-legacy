@@ -1,0 +1,16 @@
+id: ubuntu-18.04-amd64
+architecture: amd64
+description: Ubuntu 18.04.6 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 18
+    release: "18.04"
+    version: 18.04.6
+    description: Ubuntu 18.04.6
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

@@ -1,0 +1,16 @@
+id: netbsd-9.1-ppc64le
+architecture: ppc64le
+description: NetBSD 9.1 (ppc64le)
+distribution:
+    name: NetBSD
+    codename: NetBSD
+    major_version: 9
+    release: "9.1"
+    version: "9.1"
+    description: NetBSD 9.1
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

@@ -1,0 +1,16 @@
+id: solaris-11.4-x86_64
+name: ""
+description: Solaris 11.4 (x86_64)
+distribution:
+    name: Solaris
+    codename: Solaris
+    major_version: 11
+    release: "11.4"
+    version: "11.4"
+    description: Solaris 11.4
+architecture: x86_64
+hardware:
+    memory: 4096
+    storage: 32768
+    processors: 1
+    cores: 2

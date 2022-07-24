@@ -1,0 +1,16 @@
+id: photon-4-x86_64
+architecture: x86_64
+description: Photon OS 4 (x86_64)
+distribution:
+    name: Photon OS
+    codename: Photon OS
+    major_version: 4
+    release: "4"
+    version: "4"
+    description: Photon OS 4
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

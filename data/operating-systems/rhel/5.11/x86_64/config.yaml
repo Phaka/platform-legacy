@@ -1,0 +1,16 @@
+id: rhel-5.11-x86_64
+architecture: x86_64
+description: Red Hat Enterprise Linux 5.11 (x86_64)
+distribution:
+    name: Red Hat Enterprise Linux
+    codename: Red Hat Enterprise Linux
+    major_version: 5
+    release: "5.11"
+    version: "5.11"
+    description: Red Hat Enterprise Linux 5.11
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

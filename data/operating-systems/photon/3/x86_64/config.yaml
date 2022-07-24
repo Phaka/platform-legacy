@@ -1,0 +1,16 @@
+id: photon-3-x86_64
+architecture: x86_64
+description: Photon OS 3 (x86_64)
+distribution:
+    name: Photon OS
+    codename: Photon OS
+    major_version: 3
+    release: "3"
+    version: "3"
+    description: Photon OS 3
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

@@ -1,0 +1,16 @@
+id: freebsd-13.1-amd64
+architecture: amd64
+description: FreeBSD 13.1 (amd64)
+distribution:
+    name: FreeBSD
+    codename: FreeBSD
+    major_version: 13
+    release: "13.1"
+    version: "13.1"
+    description: FreeBSD 13.1
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

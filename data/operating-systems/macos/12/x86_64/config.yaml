@@ -1,0 +1,16 @@
+id: macos-12-x86_64
+architecture: x86_64
+description: macOS 12 (x86_64)
+distribution:
+    name: macOS
+    codename: macOS
+    major_version: 12
+    release: "12"
+    version: "12"
+    description: macOS 12
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

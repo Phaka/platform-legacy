@@ -1,0 +1,16 @@
+id: centos-8-x86_64
+architecture: x86_64
+description: CentOS 8 (x86_64)
+distribution:
+    name: CentOS
+    codename: CentOS
+    major_version: 8
+    release: "8"
+    version: "8"
+    description: CentOS 8
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

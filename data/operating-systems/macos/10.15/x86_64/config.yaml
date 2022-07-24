@@ -1,0 +1,16 @@
+id: macos-10.15-x86_64
+architecture: x86_64
+description: macOS 10.15 (x86_64)
+distribution:
+    name: macOS
+    codename: macOS
+    major_version: 10
+    release: "10.15"
+    version: "10.15"
+    description: macOS 10.15
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

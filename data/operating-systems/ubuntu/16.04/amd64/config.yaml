@@ -1,0 +1,16 @@
+id: ubuntu-16.04-amd64
+architecture: amd64
+description: Ubuntu 16.04.7 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 16
+    release: "16.04"
+    version: 16.04.7
+    description: Ubuntu 16.04.7
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

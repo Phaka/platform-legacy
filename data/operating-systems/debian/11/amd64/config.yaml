@@ -1,0 +1,16 @@
+id: debian-11-amd64
+architecture: amd64
+description: Debian 11.3.0 (amd64)
+distribution:
+    name: Debian
+    codename: Debian
+    major_version: 11
+    release: "11"
+    version: 11.3.0
+    description: Debian 11.3.0
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

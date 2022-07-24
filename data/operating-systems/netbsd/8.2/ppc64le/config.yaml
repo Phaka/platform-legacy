@@ -1,0 +1,16 @@
+id: netbsd-8.2-ppc64le
+architecture: ppc64le
+description: NetBSD 8.2 (ppc64le)
+distribution:
+    name: NetBSD
+    codename: NetBSD
+    major_version: 8
+    release: "8.2"
+    version: "8.2"
+    description: NetBSD 8.2
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

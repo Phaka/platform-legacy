@@ -1,0 +1,16 @@
+id: openbsd-6.9-amd64
+architecture: amd64
+description: OpenBSD 6.9 (amd64)
+distribution:
+    name: OpenBSD
+    codename: OpenBSD
+    major_version: 6
+    release: "6.9"
+    version: "6.9"
+    description: OpenBSD 6.9
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

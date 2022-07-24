@@ -1,0 +1,16 @@
+id: openbsd-6.8-i386
+architecture: i386
+description: OpenBSD 6.8 (i386)
+distribution:
+    name: OpenBSD
+    codename: OpenBSD
+    major_version: 6
+    release: "6.8"
+    version: "6.8"
+    description: OpenBSD 6.8
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

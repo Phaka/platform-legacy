@@ -1,0 +1,16 @@
+id: almalinux-9-x86_64
+architecture: x86_64
+description: AlmaLinux 9 (x86_64)
+distribution:
+    name: AlmaLinux
+    codename: AlmaLinux
+    major_version: 9
+    release: "9"
+    version: "9"
+    description: AlmaLinux 9
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

@@ -1,0 +1,16 @@
+id: ubuntu-12.04-amd64
+architecture: amd64
+description: Ubuntu 12.04.5 (amd64)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 12
+    release: "12.04"
+    version: 12.04.5
+    description: Ubuntu 12.04.5
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

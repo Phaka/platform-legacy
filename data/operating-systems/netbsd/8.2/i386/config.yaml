@@ -1,0 +1,16 @@
+id: netbsd-8.2-i386
+architecture: i386
+description: NetBSD 8.2 (i386)
+distribution:
+    name: NetBSD
+    codename: NetBSD
+    major_version: 8
+    release: "8.2"
+    version: "8.2"
+    description: NetBSD 8.2
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

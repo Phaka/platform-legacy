@@ -1,0 +1,16 @@
+id: netbsd-9.1-i386
+architecture: i386
+description: NetBSD 9.1 (i386)
+distribution:
+    name: NetBSD
+    codename: NetBSD
+    major_version: 9
+    release: "9.1"
+    version: "9.1"
+    description: NetBSD 9.1
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

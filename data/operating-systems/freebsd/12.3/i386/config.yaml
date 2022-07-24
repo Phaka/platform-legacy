@@ -1,0 +1,16 @@
+id: freebsd-12.3-i386
+architecture: i386
+description: FreeBSD 12.3 (i386)
+distribution:
+    name: FreeBSD
+    codename: FreeBSD
+    major_version: 12
+    release: "12.3"
+    version: "12.3"
+    description: FreeBSD 12.3
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

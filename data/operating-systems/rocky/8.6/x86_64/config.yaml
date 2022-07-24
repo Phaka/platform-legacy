@@ -1,0 +1,16 @@
+id: rocky-8.6-x86_64
+architecture: x86_64
+description: Rocky Linux 8.6 (x86_64)
+distribution:
+    name: Rocky Linux
+    codename: Rocky Linux
+    major_version: 8
+    release: "8.6"
+    version: "8.6"
+    description: Rocky Linux 8.6
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

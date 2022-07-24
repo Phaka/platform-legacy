@@ -1,0 +1,16 @@
+id: alpine-3.16-i386
+architecture: i386
+description: Alpine Linux 3.16 (i386)
+distribution:
+    name: Alpine Linux
+    codename: Alpine Linux
+    major_version: 3
+    release: "3.16"
+    version: "3.16"
+    description: Alpine Linux 3.16
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

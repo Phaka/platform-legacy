@@ -1,0 +1,16 @@
+id: centos-7-i386
+architecture: i386
+description: CentOS 7 (i386)
+distribution:
+    name: CentOS
+    codename: CentOS
+    major_version: 7
+    release: "7"
+    version: "7"
+    description: CentOS 7
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2

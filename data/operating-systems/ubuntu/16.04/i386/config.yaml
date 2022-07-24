@@ -1,0 +1,16 @@
+id: ubuntu-16.04-i386
+architecture: i386
+description: Ubuntu 16.04.6 (i386)
+distribution:
+    name: Ubuntu
+    codename: Ubuntu
+    major_version: 16
+    release: "16.04"
+    version: 16.04.6
+    description: Ubuntu 16.04.6
+hardware:
+    memory: 2048
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2
