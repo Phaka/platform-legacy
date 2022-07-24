@@ -1,0 +1,12 @@
+id: openmamba
+name: openmamba
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i586|x86_64))\b
+    filter:
+        - (?i)^openmamba
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: true
+mappings: {}

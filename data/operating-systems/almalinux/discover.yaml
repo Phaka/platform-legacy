@@ -1,0 +1,15 @@
+id: almalinux
+name: AlmaLinux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(x86_64|aarch64|ppc64le))\b
+    filter:
+        - alma
+        - (?i)^alma
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+        - -(?P<Major>\d+)-
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

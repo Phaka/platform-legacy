@@ -1,0 +1,15 @@
+id: linuxmint
+name: Linux Mint
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>((64|32)))bit\d?\b
+    filter:
+        - linuxmint
+        - (?i)^linuxmint
+    version:
+        - linuxmint-(?P<Major>\d+)\.(?P<Minor>\d+)-
+        - linuxmint-(?P<Major>\d+)-
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/x{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

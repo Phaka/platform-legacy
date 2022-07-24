@@ -1,0 +1,16 @@
+id: oracle-linux
+name: Oracle Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+        - (?i)\b(?P<Architecture>(x86_64))\b
+    filter:
+        - oraclelinux
+        - (?i)^oraclelinux
+        - (?i)^ol
+    version:
+        - R(?P<Major>\d+)\-U(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

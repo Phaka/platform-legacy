@@ -1,0 +1,13 @@
+id: dragonflybsd
+name: DragonFlyBSD
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+    filter:
+        - dragonfly
+        - (?i)^dragonfly
+    version: []
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

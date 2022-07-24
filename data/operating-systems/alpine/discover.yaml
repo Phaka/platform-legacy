@@ -1,0 +1,15 @@
+id: alpine
+name: Alpine Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+        - (?i)\b(?P<Architecture>(x86_64|x86))\b
+    filter:
+        - alpine
+        - (?i)^alpine
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

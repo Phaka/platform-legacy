@@ -1,0 +1,12 @@
+id: opensuse-tumbleweed
+name: openSUSE Tumbleweed
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(s390x|i586|aarch64|x86_64|ppc64le))\b
+    filter:
+        - (?i)^openSUSE\-Tumbleweed\-
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

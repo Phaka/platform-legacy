@@ -1,0 +1,18 @@
+id: os2
+name: OS/2
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+    filter:
+        - _OS2_
+        - (?i)^os2
+    version:
+        - (?i)os2(?P<Major>(warp))
+        - (?i)IBM_OS2_(?P<Major>(Warp_4))
+path: os2/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}
+architecture: i386
+streaming: false
+mappings:
+    major:
+        Warp_4: "4"
+        warp: 4-extra

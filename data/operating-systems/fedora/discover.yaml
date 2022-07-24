@@ -1,0 +1,13 @@
+id: fedora
+name: Fedora
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|x86_64))\b
+    filter:
+        - (?i)^Fedora\-(Live|Workstation|Server)
+    version:
+        - \-(?P<Major>\d+)(\-\d+(\.\d+)?)?( \(\d+\))?\.iso
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

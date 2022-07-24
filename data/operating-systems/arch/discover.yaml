@@ -1,0 +1,13 @@
+id: arch
+name: Arch Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+    filter:
+        - archlinux
+        - (?i)^archlinux
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: amd64
+streaming: true
+mappings: {}

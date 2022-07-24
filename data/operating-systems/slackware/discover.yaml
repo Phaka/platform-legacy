@@ -1,0 +1,17 @@
+id: slackware
+name: Slackware Linux
+patterns:
+    architecture:
+        - (?i)slackware(?P<Architecture>(64))\-
+    filter:
+        - slackware
+        - (?i)^slackware
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings:
+    architecture:
+        "": x86
+        "64": x64

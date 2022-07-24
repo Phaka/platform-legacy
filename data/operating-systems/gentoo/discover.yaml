@@ -1,0 +1,13 @@
+id: gentoo
+name: Gentoo Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(x86|amd64|powerpc|ppc64le|sparc64))\b
+    filter:
+        - gentoo
+        - (?i)^gentoo
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: true
+mappings: {}

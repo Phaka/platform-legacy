@@ -1,0 +1,16 @@
+id: windows
+name: Windows
+patterns:
+    architecture:
+        - (?i)_(?P<Architecture>(x86|x64))_
+    filter:
+        - (?i)^en_windows_(xp|vista|7|win7|win8|8|win10)
+    version:
+        - _(?P<Major>(xp|vista|win7|7|win8|8|win10))_
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: x86
+streaming: false
+mappings:
+    major:
+        vista: Vista
+        xp: XP

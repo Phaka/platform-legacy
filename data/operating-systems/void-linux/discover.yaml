@@ -1,0 +1,12 @@
+id: void-linux
+name: Void Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i686|x86_64|ppc))\b
+    filter:
+        - (?i)^void-live
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: true
+mappings: {}

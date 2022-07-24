@@ -1,0 +1,14 @@
+id: netbsd
+name: NetBSD
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+    filter:
+        - netbsd
+        - (?i)^netbsd
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

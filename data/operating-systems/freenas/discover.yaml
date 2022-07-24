@@ -1,0 +1,13 @@
+id: freenas
+name: FreeNAS
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(x64|x86))\b
+    filter:
+        - (?i)^freenas
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: x64
+streaming: false
+mappings: {}

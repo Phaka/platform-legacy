@@ -1,0 +1,14 @@
+id: solaris
+name: Solaris
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|x86|sparc))\b
+    filter:
+        - (?i)^sol
+    version:
+        - -(?P<Major>\d+)_(?P<Minor>\d+)
+        - -(?P<Major>\d+)-u(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

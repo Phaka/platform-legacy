@@ -1,0 +1,16 @@
+id: centos
+name: CentOS
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(x86_64|ia64|i386))\b
+    filter:
+        - centos
+        - (?i)^centos
+    version:
+        - (?i)CentOS\-(?P<Major>\d+)\-
+        - (?i)CentOS\-(?P<Major>\d+)\.(?P<Minor>\d+)\-
+        - (?i)CentOS\-Stream\-(?P<Major>\d+)\-
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

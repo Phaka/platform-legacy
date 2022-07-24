@@ -1,0 +1,15 @@
+id: 9front
+name: 9Front
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(386|amd64))\b
+    filter:
+        - 9front
+        - (?i)^9front
+    version: []
+path: '{{ .Name }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings:
+    architecture:
+        "386": i386

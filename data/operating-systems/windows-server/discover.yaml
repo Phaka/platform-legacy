@@ -1,0 +1,25 @@
+id: windows-server
+name: Windows Server
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(x86|x64))\b
+    filter:
+        - (?i)_windows_server_
+        - (?i)_windows_storage_server_
+        - (?i)_win_srv_
+    version:
+        - _server_(?P<Major>\d+)_(?P<Minor>r\d+)_
+        - _server_version_(?P<Major>\d+)_(?P<Minor>r\d+)_
+        - _server_version_(?P<Major>\d+)_
+        - _server_(?P<Major>\d+)_
+        - _srv_(?P<Major>\d+)_(?P<Minor>r\d+)_
+        - _srv_(?P<Major>\d+)_
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: x86
+streaming: false
+mappings:
+    architecture:
+        x64: x86_64
+        x86: i386
+    minor:
+        r2: R2

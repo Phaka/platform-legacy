@@ -1,0 +1,14 @@
+id: debian
+name: Debian
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(amd64|i386|ia64|powerpc|ppc64|sparc64|arm64|mips64el|mips64|mipsel|ppc64el|s390x))\b
+    filter:
+        - debian
+        - (?i)^debian
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

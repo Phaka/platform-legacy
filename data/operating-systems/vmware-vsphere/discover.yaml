@@ -1,0 +1,18 @@
+id: vmware-vsphere
+name: VMware vSphere
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+        - (?i)\b(?P<Architecture>(x86_64))\b
+    filter:
+        - vmware-vsphere
+        - (?i)^esxi
+        - (?i)^vmware-esxi
+        - (?i)^vmware-vmvisor
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+        - (?P<Major>\d+)\-u?(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: x86_64
+streaming: false
+mappings: {}

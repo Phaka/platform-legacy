@@ -1,0 +1,16 @@
+id: opensuse
+name: openSUSE
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(s390x|i586|i686|aarch64|x86_64|ppc64le))\b
+    filter:
+        - (?i)^openSUSE-Leap
+        - (?i)^openSUSE-
+        - (?i)^opensuse
+        - (?i)^leap
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}

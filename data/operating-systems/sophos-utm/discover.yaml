@@ -1,0 +1,13 @@
+id: sophos-utm
+name: Sophos UTM
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+    filter:
+        - (?i)^asg-
+    version:
+        - (?P<Major>\d+).(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}/{{ .Filename }}'
+architecture: amd64
+streaming: false
+mappings: {}

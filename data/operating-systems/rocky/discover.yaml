@@ -1,0 +1,14 @@
+id: rocky
+name: Rocky Linux
+patterns:
+    architecture:
+        - (?i)\b(?P<Architecture>(i386|amd64))\b
+        - (?i)\b(?P<Architecture>(x86_64))\b
+    filter:
+        - (?i)^Rocky-
+    version:
+        - (?P<Major>\d+)\.(?P<Minor>\d+)
+path: '{{ .Name }}/{{ .Major }}{{if .Minor }}.{{ .Minor }}{{ end }}/{{ .Architecture }}/{{ .Filename }}'
+architecture: ""
+streaming: false
+mappings: {}
