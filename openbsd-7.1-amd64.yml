@@ -1,0 +1,23 @@
+id: openbsd-7.1-amd64
+architecture: amd64
+description: OpenBSD 7.1 (amd64)
+distribution:
+    name: OpenBSD
+    codename: OpenBSD
+    release: "7.1"
+    version: 
+      full: "7.1"
+      major: "7"
+      minor: "1"
+hardware:
+    memory: 4096
+    storage: 32768
+    processors:
+        count: 1
+        cores: 2
+virtualization:
+    vmware:
+        disk_controller_type: lsilogic
+        firmware: bios
+        guest_os_type: otherGuest64
+        network_adapter_type: e1000
