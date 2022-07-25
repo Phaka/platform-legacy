@@ -14,3 +14,9 @@ hardware:
     processors:
         count: 1
         cores: 2
+virtualization:
+    vmware:
+        disk_controller_type: pvscsi
+        firmware: bios
+        guest_os_type: debian9_64Guest
+        network_adapter_type: vmxnet3

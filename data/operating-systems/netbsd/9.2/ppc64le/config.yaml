@@ -14,3 +14,4 @@ hardware:
     processors:
         count: 1
         cores: 2
+virtualization: {}

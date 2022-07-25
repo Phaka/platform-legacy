@@ -14,3 +14,9 @@ hardware:
     processors:
         count: 1
         cores: 2
+virtualization:
+    vmware:
+        disk_controller_type: lsilogic-sas
+        firmware: bios
+        guest_os_type: freebsdGuest
+        network_adapter_type: vmxnet3
